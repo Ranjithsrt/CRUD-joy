@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h3>CRUD by a javascript with firebase</h3>
+    <form action="#" id="frm">
+        <input type="hidden" name="name" id="id" placeholder="Enter your name">
+        <div class="from-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Full Name">
+        </div>
+        <div class="from-group">
+            <label for="Age">Age</label>
+            <input type="text" id="Age" placeholder="Age">
+        </div>
+        <div class="from-group">
+            <label for="City">City</label>
+            <input type="text" id="City" placeholder="City">
+        </div>
+        <button type="submit" class="btn" id="btn-submit"> <ion-icon name="save-outline"></ion-icon>Save</button>
+    </form>
+    <table>
+        <thead>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+        <tbody id="tblBody">
+            <!-- <tr>
+                <td>1</td>
+                <td>joes</td>
+                <td>55</td>
+                <td>Kovai</td>
+                <td>
+                    <button class="btn-edit">
+                        <ion-icon name="create-outline"></ion-icon>
+                    </button>
+                </td>
+                <td>
+                    <button class="btn-dlt">
+                        <ion-icon name="trash-outline"></ion-icon>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>john</td>
+                <td>33</td>
+                <td>Chennai</td>
+                <td>
+                    <button class="btn-edit">
+                        <ion-icon name="create-outline"></ion-icon>
+                    </button>
+                </td>
+                <td>
+                    <button class="btn-dlt" >
+                        <ion-icon name="trash-outline"></ion-icon>
+                    </button>
+                </td>
+              
+            </tr> -->
+        </tbody>
+    </table>
+
+    <script src="./script.js" type="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

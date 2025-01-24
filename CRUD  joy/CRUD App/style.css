@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+ 
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  margin: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: tomato;
+  margin-bottom: 50px;
+}
+
+form {
+  width: 600px;
+}
+form .from-group {
+  display: flex;
+  align-items: center;
+}
+
+.from-group label {
+  min-width: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+form .from-group input {
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 0;
+  outline: 0;
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  margin: 10px 20px;
+}
+
+form button {
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 15px;
+  color: white;
+  background: tomato;
+  border: none;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid teal;
+  max-width: 600px;
+  margin-top: 50px;
+}
+
+table thead tr {
+  background-color: teal;
+  color: white;
+}
+table thead tr th {
+  border: 1px solid teal;
+  font-weight: 400;
+}
+table td,
+table th {
+  border: 1px solid teal;
+  padding: 5px 10px;
+}
+
+table td button {
+  padding: 5px 10px;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  background-color: teal;
+  border-radius: 3px;
+  font-weight: bolder;
+}
+
+/* table td button:hover{
+    background-color: rgb(255, 99, 71);
+} */
+
+.btn-dlt {
+  background-color: red;
+}
+
+.btn-edit on-icon,
+.btn-dlt on-icon {
+  pointer-events: none;
+}
